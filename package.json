@@ -1,8 +1,9 @@
 {
+  "homepage" : "https://sebastian-1406.github.io/sunnyside-agency-landing-page-main/",
   "name": "tailwind",
   "version": "1.0.0",
   "description": "",
-  "main": "./public/index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "postcss css/tailwind.css -o public/css/styles.css --watch"
@@ -14,5 +15,8 @@
     "autoprefixer": "^10.3.7",
     "postcss-cli": "^9.0.1",
     "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
