@@ -18,29 +18,30 @@
 
 <body>
     <header class="relative">
-        <img src="./images/desktop/image-header.jpg" class="hidden md:block">
-        <img src="./images/mobile/image-header.jpg" class="md:hidden">
+        <img src="./images/desktop/image-header.jpg" class="hidden md:block" alt="naraja decoracion" aria-hidden="true">
+        <img src="./images/mobile/image-header.jpg" class="md:hidden" alt="naranka decoracion" aria-hidden="true">
         <div class="py-8 px-7 font-Fraunces absolute top-0 right-0 bottom-0 left-0 lg:py-10 lg:px-10">
-            <nav class="flex items-center justify-between">
-                <img src="./images/logo.svg" alt="sunnyside/svg">
-                <img src="./images/icon-hamburger.svg" alt="icon-hamburger/svg" class="md:hidden">
-                <div class="hidden list-none md:flex md:gap-10 font-Barlow text-White md:items-center">
+            <nav class="flex items-center justify-between relative">
+                <img src="./images/logo.svg" alt="sunnyside/svg" aria-hidden="true">
+                <img src="./images/icon-hamburger.svg" alt="icon-hamburger/svg" id="boton-nav" class="md:hidden" aria-hidden="true">
+                <div id="enlaces" class="font-Barlow absolute text-lg top-20 right-0 left-0 flex-col items-center gap-6 py-10 text-DarkGrayishBlue list-none md:relative md:top-0 md:left-0 md:right-0 md:flex md:flex-row md:px-0 md:py-0 md:gap-10 md:text-White hidden">
+                    <div style="width: 0;height: 0 ;border-bottom:35px solid white; border-left:35px solid transparent;" class="absolute -top-8 right-0 md:hidden"></div>
                     <li class="lg:cursor-pointer">About</li>
                     <li class="lg:cursor-pointer">Services</li>
                     <li class="lg:cursor-pointer">Projects</li>
-                    <li class="font-Fraunces bg-White text-VeryDarkDesaturatedBlue rounded-full md:py-2 md:px-4 lg:py-3 lg:px-8 uppercase lg:cursor-pointer lg:hover:bg-opacity-20 transition-all duration-300 lg:hover:text-White">Contact</li>
+                    <li class="font-Fraunces text-base bg-Yellow py-3 px-8 md:bg-White text-VeryDarkDesaturatedBlue rounded-full md:py-2 md:px-4 lg:py-3 lg:px-8 uppercase lg:cursor-pointer lg:hover:bg-opacity-20 transition-all duration-300 lg:hover:text-White">Contact</li>
                 </div>
             </nav>
             <div class="text-center my-20 mt-20 xl:mt-36">
                 <h1 class="text-White tracking-widest uppercase text-4xl lg:text-5xl">We are creatives</h1>
-                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down/svg" class="mx-auto mt-12 lg:mt-24 md:h-20 lg:h-auto">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down/svg" class="mx-auto mt-12 lg:mt-24 md:h-20 lg:h-auto" aria-hidden="true">
             </div>
             </di>
     </header>
     <main>
         <div class="grid md:grid-cols-2 md:grid-rows-1 md:items-center">
-            <img src="./images/mobile/image-transform.jpg" alt="Transform/jpg" class="md:hidden">
-            <img src="./images/desktop/image-transform.jpg" alt="Transform/jpg" class="hidden md:block md:col-start-2 md:row-start-1">
+            <img src="./images/mobile/image-transform.jpg" alt="Transform/jpg" class="md:hidden" aria-hidden="true">
+            <img src="./images/desktop/image-transform.jpg" alt="Transform/jpg" class="hidden md:block md:col-start-2 md:row-start-1" aria-hidden="true">
             <div class="font-Fraunces py-16 px-6 text-center text-VeryDarkDesaturatedBlue sm:py-12 md:text-left md:px-11 xl:px-28 relative">
                 <h2 class="text-4xl md:text-2xl lg:text-4xl xl:text-5xl">Transform your brand</h2>
                 <p class="font-Barlow my-8 text-lg text-DarkGrayishBlue md:text-xs md:leading-5 lg:text-lg">We are a full-service creative agency specializing in helping brands
@@ -53,8 +54,8 @@
             </div>
         </div>
         <div class="grid md:grid-cols-2 md:items-center">
-            <img src="./images/mobile/image-stand-out.jpg" alt="stand-out/jpg" class="md:hidden">
-            <img src="./images/desktop/image-stand-out.jpg" alt="stand-out/jpg" class="hidden md:block md:col-start-1 md:row-start-1">
+            <img src="./images/mobile/image-stand-out.jpg" alt="stand-out/jpg" class="md:hidden" aria-hidden="true">
+            <img src="./images/desktop/image-stand-out.jpg" alt="stand-out/jpg" class="hidden md:block md:col-start-1 md:row-start-1" aria-hidden="true">
             <div class="font-Fraunces py-16 px-6 text-center text-VeryDarkDesaturatedBlue  sm:py-12 md:text-left md:px-11 xl:px-28">
                 <h2 class="text-4xl md:text-2xl lg:text-4xl xl:text-5xl">Stand out to the right audience</h2>
                 <p class="font-Barlow my-8 text-lg text-DarkGrayishBlue md:text-xs md:leading-5 lg:text-lg">Using a collaborative formula of designers, researchers,
@@ -68,8 +69,8 @@
         </div>
         <div class="grid md:grid-cols-2">
             <div class="relative">
-                <img src="./images/mobile/image-graphic-design.jpg" alt="graphic-design/jpg" class="lg:hidden">
-                <img src="./images/desktop/image-graphic-design.jpg" alt="graphic-design/jpg" class="hidden lg:block ">
+                <img src="./images/mobile/image-graphic-design.jpg" alt="graphic-design/jpg" class="lg:hidden" aria-hidden="true">
+                <img src="./images/desktop/image-graphic-design.jpg" alt="graphic-design/jpg" class="hidden lg:block " aria-hidden="true">
                 <div class="text-center absolute bottom-8 font-Fraunces left-5 right-5 text-DarkDesaturatedCyan">
                     <h2 class="text-3xl">Graphic design</h2>
                     <p class="font-Barlow my-8 text-base  md:leading-5 md:text-xs md:mx-auto md:w-4/6 xl:text-lg">Great design makes you memorable. We deliver artwork that
@@ -77,8 +78,8 @@
                 </div>
             </div>
             <div class="relative">
-                <img src="./images/mobile/image-photography.jpg" alt="photography-design/jpg" class="lg:hidden">
-                <img src="./images/desktop/image-photography.jpg" alt="photography-design/jpg" class="hidden lg:block">
+                <img src="./images/mobile/image-photography.jpg" alt="photography-design/jpg" class="lg:hidden" aria-hidden="true">
+                <img src="./images/desktop/image-photography.jpg" alt="photography-design/jpg" class="hidden lg:block" aria-hidden="true">
                 <div class="text-center absolute bottom-8 font-Fraunces left-5 right-5 text-DarkBlue">
                     <h2 class="text-3xl">Photography</h2>
                     <p class="font-Barlow my-8 text-base md:leading-5 md:text-xs md:w-4/6 md:mx-auto xl:w-4/6 xl:text-lg">Increase your credibility by getting the most stunning,
@@ -90,7 +91,7 @@
             <h3 class="mb-16 font-Fraunces uppercase tracking-widest text-DarkGrayishBlue text-2xl">Client testimonials</h3>
             <div class="flex flex-col gap-12 text-VeryDarkGrayishBlue md:flex-row">
                 <div class="font-Barlow text-center">
-                    <img src="./images/image-emily.jpg" alt="Emily/jpg" class="rounded-full inline mx-auto w-20 h-20">
+                    <img src="./images/image-emily.jpg" alt="Emily/jpg" class="rounded-full inline mx-auto w-20 h-20" aria-hidden="true"> 
                     <p class="my-8 text-lg md:text-sm xl:text-lg">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
                     <div>
                         <p class="font-Fraunces text-xl mb-1 text-VeryDarkDesaturatedBlue md:text-lg lg:text-xl">Emily R.</p>
@@ -98,7 +99,7 @@
                     </div>
                 </div>
                 <div class="font-Barlow text-center">
-                    <img src="./images/image-thomas.jpg" alt="Thomas/jpg" class="rounded-full inline mx-auto w-20 h-20">
+                    <img src="./images/image-thomas.jpg" alt="Thomas/jpg" class="rounded-full inline mx-auto w-20 h-20" aria-hidden="true">
                     <p class="my-8 text-lg md:text-sm xl:text-lg">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
                     <div>
                         <p class="font-Fraunces text-xl mb-1 text-VeryDarkDesaturatedBlue md:text-lg lg:text-xl">Thomas S.</p>
@@ -106,7 +107,7 @@
                     </div>
                 </div>
                 <div class="font-Barlow text-center">
-                    <img src="./images/image-jennie.jpg" alt="Jennie/jpg" class="rounded-full inline mx-auto w-20 h-20">
+                    <img src="./images/image-jennie.jpg" alt="Jennie/jpg" class="rounded-full inline mx-auto w-20 h-20" aria-hidden="true">
                     <p class="my-8 text-lg md:text-sm xl:text-lg">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
                     <div>
                         <p class="font-Fraunces text-xl mb-1 text-VeryDarkDesaturatedBlue md:text-lg lg:text-xl">Jennie F.</p>
@@ -115,15 +116,19 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4">
-            <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" class="sm:hidden">
-            <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" class="hidden sm:block">
-            <img src="./images/mobile/image-gallery-orange.jpg" alt="" class="sm:hidden">
-            <img src="./images/desktop/image-gallery-orange.jpg" alt="" class="hidden sm:block">
-            <img src="./images/mobile/image-gallery-cone.jpg" alt="" class="sm:hidden">
-            <img src="./images/desktop/image-gallery-cone.jpg" alt="" class="hidden sm:block">
-            <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" class="sm:hidden">
-            <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" class="hidden sm:block">
+        <div>
+            <div class="md:hidden grid grid-cols-2">
+                <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="" >
+                <img src="./images/mobile/image-gallery-cone.jpg" alt="" >
+                <img src="./images/mobile/image-gallery-orange.jpg" alt="" >
+                <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="" >
+            </div>
+            <div class="hidden md:grid md:grid-cols-4">
+                <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+                <img src="./images/desktop/image-gallery-cone.jpg" alt="">
+                <img src="./images/desktop/image-gallery-orange.jpg" alt="">
+                <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+            </div>
         </div>
     </main>
     <footer class="bg-GreenClaro py-16 px-6">
@@ -143,7 +148,7 @@
         </div>
     </footer>
 
+    <script src="./js/script.js"></script>
 
 </body>
-
 </html>

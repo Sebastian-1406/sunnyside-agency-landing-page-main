@@ -15,7 +15,6 @@ module.exports = {
       GrayishBlue: 'hsl(210, 4%, 67%)',
       White: 'hsl(0, 0%, 100%)',
       GreenClaro: '#90d4c5',
-      Celeste: '#6eceff'
     },
     fontFamily: {
       Barlow : 'Barlow',
