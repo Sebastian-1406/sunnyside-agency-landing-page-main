@@ -2,6 +2,8 @@
 
 ![Design preview for the Sunnyside agency landing page coding challenge](public/design/desktop-preview.jpg)
 
+Ir al proyecto (https://sebastian-1406.github.io/sunnyside-agency-landing-page-main/public)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
